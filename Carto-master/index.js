@@ -62,7 +62,7 @@ let AddListeners = ()=>{
         k.addEventListener('click', AddtoCart);
     }
 }
-let loadItems = () =>{
+let loadItems = () =>{//so what is this?:)))
     $.getJSON('data.json',(data) =>{
         // console.log(data);
         for(let i=0;i<data.length;i+=3) {
